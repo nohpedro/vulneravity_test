@@ -6,6 +6,7 @@ target/
 tmp/
 tmp-*
 allure-results/
+!evidence/allure-results/
 evidence/private/
 output/*.zip
 __pycache__/

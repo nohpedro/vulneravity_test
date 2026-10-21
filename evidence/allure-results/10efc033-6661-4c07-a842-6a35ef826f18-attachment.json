@@ -1,0 +1,48 @@
+{
+    "status": "success",
+    "data": {
+        "id": 7,
+        "coupon": null,
+        "UserId": 26,
+        "createdAt": "2026-10-21T00:49:55.418Z",
+        "updatedAt": "2026-10-21T00:49:55.418Z",
+        "Products": [
+            {
+                "id": 1,
+                "name": "Apple Juice (1000ml)",
+                "description": "The all-time classic.",
+                "price": 1.99,
+                "deluxePrice": 0.99,
+                "image": "apple_juice.jpg",
+                "alternateImages": [
+                    {
+                        "file": "apple_juice-1x.avif",
+                        "format": "image/avif",
+                        "density": "1x"
+                    },
+                    {
+                        "file": "apple_juice-2x.avif",
+                        "format": "image/avif",
+                        "density": "2x"
+                    },
+                    {
+                        "file": "apple_juice-3x.avif",
+                        "format": "image/avif",
+                        "density": "3x"
+                    }
+                ],
+                "createdAt": "2026-10-21T00:43:42.940Z",
+                "updatedAt": "2026-10-21T00:43:42.940Z",
+                "deletedAt": null,
+                "BasketItem": {
+                    "ProductId": 1,
+                    "BasketId": 7,
+                    "id": 10,
+                    "quantity": -1,
+                    "createdAt": "2026-10-21T00:49:55.952Z",
+                    "updatedAt": "2026-10-21T00:49:56.189Z"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "status": "success",
+    "data": {
+        "ProductId": 1,
+        "BasketId": 7,
+        "id": 10,
+        "quantity": -1,
+        "createdAt": "2026-10-21T00:49:55.952Z",
+        "updatedAt": "2026-10-21T00:49:56.189Z"
+    }
+}
