@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-10-21T00:50:23.485503+00:00",
+  "version": "2.17.0",
+  "mode": "Passive analysis of TC-BL-001 HTTP traffic; no spider or active scan",
+  "target": "http://juice-shop:3000",
+  "recordsToScan": 0,
+  "instanceCount": 8,
+  "groups": [
+    {
+      "risk": "Informational",
+      "alert": "Authentication Request Identified",
+      "pluginId": "10111",
+      "instances": 2
+    },
+    {
+      "risk": "Informational",
+      "alert": "Session Management Response Identified",
+      "pluginId": "10112",
+      "instances": 1
+    },
+    {
+      "risk": "Medium",
+      "alert": "Cross-Domain Misconfiguration",
+      "pluginId": "10098",
+      "instances": 5
+    }
+  ],
+  "redaction": "Ephemeral JWT and Lab! passwords removed from exported reports"
+}

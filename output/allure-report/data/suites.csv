@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"PASS en modo reproduce confirma la debilidad; no significa que la aplicación sea segura. El modo secure exige rechazo y ausencia de persistencia.","2261","TC-BL-001 | Reproducir aceptación de cantidad negativa en carrito","","2026-10-20","passed","2026-10-20","","security.NegativeQuantityTest","security.NegativeQuantityTest","negativeQuantityInOwnBasket"

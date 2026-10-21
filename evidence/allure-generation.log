@@ -1,0 +1,7 @@
+I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.google-analytics.com:443: Permission denied: connect
+Retrying request to {s}->https://www.google-analytics.com:443
+I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.google-analytics.com:443: Permission denied: connect
+Retrying request to {s}->https://www.google-analytics.com:443
+I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.google-analytics.com:443: Permission denied: connect
+Retrying request to {s}->https://www.google-analytics.com:443
+Report successfully generated to output\allure-report

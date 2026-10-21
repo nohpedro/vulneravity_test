@@ -1,0 +1,11 @@
+tools/
+target/
+.m2/
+.idea/
+*.iml
+tmp/
+tmp-*
+allure-results/
+evidence/private/
+output/*.zip
+__pycache__/

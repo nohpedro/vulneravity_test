@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve evidence bytes and binary artifacts, including SHA-256 values in the PDF.
+evidence/** -text -whitespace
+output/** -text -whitespace
+*.pdf binary
+*.png binary
+mvnw text eol=lf
+mvnw.cmd text eol=crlf
+src/** text eol=lf
+scripts/** text eol=lf

@@ -1,0 +1,16 @@
+{
+  "caseId" : "TC-BL-001",
+  "startedAt" : "2026-10-20T20:49:54.535548800-04:00",
+  "baseUrl" : "http://juice-shop:3000",
+  "expectation" : "reproduce",
+  "basketId" : 7,
+  "quantityBefore" : 1,
+  "itemId" : 10,
+  "mutationHttpStatus" : 200,
+  "quantityAfter" : -1,
+  "unitPrice" : 1.99,
+  "calculatedLineTotal" : -1.99,
+  "securityVerdict" : "VULNERABLE",
+  "cleanup" : "quantity_restored_to_1",
+  "finishedAt" : "2026-10-20T20:49:56.432758900-04:00"
+}
